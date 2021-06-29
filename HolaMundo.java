@@ -33,5 +33,17 @@ class HolaMundo{
             System.out.println("esto es un double ");
             System.out.println(e);
 
+        // Tipos de Dato primitivos Textos char String
+        // char letraA = 'a';
+        // char letraANumerico = 61;
+        // String letraA = 'a';
+        char Simbolo = '#';
+        String texto = "Esto es un texto string";
+            System.out.println("esto es un char ");
+            System.out.println(Simbolo);
+            System.out.println("esto es un String ");
+            System.out.println(texto);
+
+
     }
 }
