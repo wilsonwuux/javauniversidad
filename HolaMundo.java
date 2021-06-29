@@ -44,6 +44,20 @@ class HolaMundo{
             System.out.println("esto es un String ");
             System.out.println(texto);
 
+        // Tipos de Dato primitivos Boleanos 
+        boolean verdadero = true;
+        boolean falso = false;
+            System.out.println("boolean almacena un boleanos ");
+            System.out.println(verdadero);
+            System.out.println(falso);
 
+        System.out.println("Multiples variables ");
+        // Multiples variables
+            int num1=10,num2=20,num3=101;
+            System.out.println(num1);
+            System.out.println(num2);
+            System.out.println(num3);
+
+            
     }
 }
