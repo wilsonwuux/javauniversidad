@@ -57,7 +57,26 @@ class HolaMundo{
             System.out.println(num1);
             System.out.println(num2);
             System.out.println(num3);
-
             
+            //------------------------------------------
+            // Operaciones aritmeticas
+            System.out.println(" esto es una Suma ");
+            int Suma = num1 +10;
+            System.out.println(Suma);
+            System.out.println(" esto es una Resta ");
+            int Resta = num1 -num2;
+            System.out.println(Resta);
+            System.out.println(" esto es una Multiplicar ");
+            int Multiplicar = num2 *num3;
+            System.out.println(Multiplicar);
+            System.out.println(" esto es una Dividir ");
+            int Dividir = num3 /num1;
+            System.out.println(Dividir);
+            System.out.println(" esto es una Incrementar 1 ");
+            int incremento = num1 ++;
+            System.out.println(incremento);
+            System.out.println(" esto es una Decremento 1 ");
+            int decremento = num1 --;
+            System.out.println(decremento);
     }
 }
