@@ -57,7 +57,7 @@ class HolaMundo{
             System.out.println(num1);
             System.out.println(num2);
             System.out.println(num3);
-            
+
             //------------------------------------------
             // Operaciones aritmeticas
             System.out.println(" esto es una Suma ");
@@ -78,5 +78,19 @@ class HolaMundo{
             System.out.println(" esto es una Decremento 1 ");
             int decremento = num1 --;
             System.out.println(decremento);
+
+        // asignacion de decrementos y aritmeticos 
+        System.out.println(" esto es una asignacino incrmeneto en valor");
+        num1 += 100;
+        System.out.println(num1);
+        System.out.println(" esto es una asignacino decremento en valor");
+        num1 -= 20;
+        System.out.println(num1);
+        System.out.println(" esto es una asignacino en valor por multiplicacion");
+        num1 *= 10;
+        System.out.println(num1);
+        System.out.println(" esto es una asignacino en valor por division");
+        num1 /= 20;
+        System.out.println(num1);
     }
 }
